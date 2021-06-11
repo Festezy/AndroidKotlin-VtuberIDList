@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DaftarVtuber</string>
+    <string name="cardviewimage">cardViewImage</string>
+    <string name="cardViewName">Vtuber Name</string>
+    <string name="cardViewDetail">vtuber Detail</string>
+    <string name="cardViewProfile">vtuber profile</string>
+</resources>
