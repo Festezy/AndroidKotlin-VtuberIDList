@@ -46,7 +46,7 @@ class vtuberAdapter(val listVtuber: ArrayList<VtuberModel>, val context: Context
 
         holder.tvName.text = vtuber.name
         holder.tvProfile.text = vtuber.profile
-        holder.tvDetail.text = vtuber.profile
+        holder.tvDetail.text = vtuber.detail
 
         holder.itemView.setOnClickListener {
             Toast.makeText(holder.itemView.context,
