@@ -4,4 +4,14 @@
     <string name="cardViewName">Vtuber Name</string>
     <string name="cardViewDetail">vtuber Detail</string>
     <string name="cardViewProfile">vtuber profile</string>
+
+    <string name="profile_detail">Profile</string>
+    <string name="name_detail">Name</string>
+    <string name="value_profile_detail">value profile</string>
+    <string name="detail_detail">Detail</string>
+    <string name="valuedetail_detail">valueDetail</string>
+    <string name="social_media_detail">Social Media</string>
+    <string name="vtuber_youtube_item">vtuber youtube</string>
+    <string name="youtubelink_detail">youtubeLink</string>
+    <string name="profile_menu">profile</string>
 </resources>

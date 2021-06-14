@@ -4,6 +4,8 @@ data class VtuberModel(
     var name: String = "",
     var profile: String = "",
     var detail: String = "",
-    var photo: Int = 0
+    var photo: Int = 0,
+    var ytUrl: String = "",
+    var twitUrl: String = ""
 ) {
 }

@@ -5,9 +5,9 @@ import com.ariqandrean.daftarvtuber.model.VtuberModel
 
 object VtuberData {
     private val vtuberNames = arrayOf(
-        "Ayunda Risu Ch. hololive-ID",
-        "Airani Iofifteen",
-        "Moona Hoshinova",
+        "Ayunda Risu hololiveID",
+        "Airani Iofifteen hololiveID",
+        "Moona Hoshinova hololiveID",
     )
 
     private val vtuberProfil = arrayOf(
@@ -20,22 +20,34 @@ object VtuberData {
         "adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Moona Hoshinova dan Ayunda Risu.",
         "adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Airani Iofifteen  dan Ayunda Risu."
     )
+    private val vtuberYoutube = arrayOf(
+        "https://www.youtube.com/channel/UCOyYb1c43VlX9rc_lT6NKQw",
+        "https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg",
+        "https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg/channels"
+    )
+    private val vtuberTwitter = arrayOf(
+        "https://twitter.com/ayunda_risu",
+        "https://twitter.com/airaniiofifteen?s=09",
+        "https://twitter.com/moonahoshinova"
+    )
 
     private val vtuberImages = intArrayOf(
         R.drawable.ayundarisu,
         R.drawable.airaniiofifteen,
         R.drawable.moonahoshinova
-
     )
+
     val listData: ArrayList<VtuberModel>
         get() {
             val list = arrayListOf<VtuberModel>()
             for (position in vtuberNames.indices){
                 val vtuber = VtuberModel()
+                vtuber.photo = vtuberImages[position]
                 vtuber.name = vtuberNames[position]
                 vtuber.profile = vtuberProfil[position]
                 vtuber.detail = vtuberDetails[position]
-                vtuber.photo = vtuberImages[position]
+                vtuber.ytUrl = vtuberYoutube[position]
+                vtuber.twitUrl = vtuberTwitter[position]
                 list.add(vtuber)
             }
             return list
