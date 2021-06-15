@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.ariqandrean.daftarvtuber.`object`.VtuberData
@@ -39,6 +40,8 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
         if (id == R.id.nav_Profile){
+            Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
+
             val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
             return true

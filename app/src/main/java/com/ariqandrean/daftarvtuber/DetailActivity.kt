@@ -7,8 +7,6 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.ActionBar
-import com.ariqandrean.daftarvtuber.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
 
@@ -44,7 +42,7 @@ class DetailActivity : AppCompatActivity() {
 
         detailYtUrl.setOnClickListener {
             if (ytUrl == ""){
-                Toast.makeText(this, "$vName is not available", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "$vName Youtube is not available", Toast.LENGTH_LONG).show()
             } else {
                 gotoUrl(ytUrl)
             }
@@ -52,15 +50,15 @@ class DetailActivity : AppCompatActivity() {
 
         detailTwitterUrl.setOnClickListener {
             if (twitUrl == ""){
-                Toast.makeText(this, "$vName is not available", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "$vName Twitter is not available", Toast.LENGTH_LONG).show()
             } else {
                 gotoUrl(twitUrl)
             }
         }
     }
 
-    private fun gotoUrl(vUrl: String?) {
-        var uri: Uri = Uri.parse(vUrl)
+    private fun gotoUrl(Url: String?) {
+        val uri: Uri = Uri.parse(Url)
         startActivity(Intent(Intent.ACTION_VIEW, uri))
     }
 

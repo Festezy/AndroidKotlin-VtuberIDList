@@ -13,5 +13,11 @@
     <string name="social_media_detail">Social Media</string>
     <string name="vtuber_youtube_item">vtuber youtube</string>
     <string name="youtubelink_detail">youtubeLink</string>
+
     <string name="profile_menu">profile</string>
+    <string name="ariq_andrean_profile">Ariq Andrean</string>
+    <string name="link_akundicoding_profile">https://www.dicoding.com/users/festezy</string>
+    <string name="keterangan_profile">Hallo, Nama Saya Ariq Andrean. untuk menyelesaikan Tugas dicoding</string>
+    <string name="social_media_profile">Temukan saya di</string>
+    <string name="dibuat_oleh_profile">Dibuat Oleh</string>
 </resources>
