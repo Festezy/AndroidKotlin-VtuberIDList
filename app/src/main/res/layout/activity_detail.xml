@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/profile_detail"
+            android:textStyle="bold"
             android:textColor="@color/black"/>
         <TextView
             android:id="@+id/tv_profile_detail"
@@ -50,6 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/detail_detail"
+            android:textStyle="bold"
             android:textColor="@color/black"/>
         <TextView
             android:id="@+id/tv_detail_detail"
@@ -64,6 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/social_media_detail"
+            android:textStyle="bold"
             android:textColor="@color/black"/>
 
         <LinearLayout

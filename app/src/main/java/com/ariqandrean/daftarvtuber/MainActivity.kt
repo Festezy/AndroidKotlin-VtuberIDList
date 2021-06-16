@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
         if (id == R.id.nav_Profile){
-            Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Go to About, please wait...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
