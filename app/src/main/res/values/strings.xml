@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DaftarVtuber</string>
+    <string name="app_name">Vtuber Indonesia</string>
     <string name="cardviewimage">cardViewImage</string>
     <string name="cardViewName">Vtuber Name</string>
     <string name="cardViewDetail">vtuber Detail</string>
