@@ -1,80 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
     tools:context=".ProfileActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/dibuat_oleh_profile"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="16dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:orientation="vertical"
-        android:padding="20dp">
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_image"
-            android:layout_width="227dp"
-            android:layout_height="174dp"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center"
-            android:src="@drawable/ariq" />
+        android:padding="16dp">
         <TextView
-            android:id="@+id/profile_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/profile_image"
-            android:layout_marginTop="10dp"
-            android:text="@string/ariq_andrean_profile"
+            android:layout_gravity="center"
+            android:text="@string/dibuat_oleh_profile"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="227dp"
+                android:layout_height="174dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:src="@drawable/ariq" />
+            <TextView
+                android:id="@+id/profile_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginTop="10dp"
+                android:text="@string/ariq_andrean_profile"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/link_akundicoding_profile"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/social_media_profile"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
             android:layout_marginTop="5dp"
-            android:text="@string/link_akundicoding_profile"/>
+            android:orientation="horizontal">
 
+            <ImageView
+                android:id="@+id/github_profile"
+                android:layout_width="109dp"
+                android:layout_height="59dp"
+                app:srcCompat="@drawable/github" />
+            <ImageView
+                android:id="@+id/dicoding_profile"
+                android:layout_width="109dp"
+                android:layout_height="59dp"
+                app:srcCompat="@mipmap/dicoding" />
+        </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/social_media_profile"
-        android:textColor="@color/black"/>
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="5dp"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/github_profile"
-            android:layout_width="109dp"
-            android:layout_height="59dp"
-            app:srcCompat="@drawable/github" />
-        <ImageView
-            android:id="@+id/dicoding_profile"
-            android:layout_width="109dp"
-            android:layout_height="59dp"
-            app:srcCompat="@mipmap/dicoding" />
-    </LinearLayout>
-
-</LinearLayout>
+</ScrollView>
