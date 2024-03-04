@@ -4,61 +4,53 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
+import com.ariqandrean.daftarvtuber.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityDetailBinding
 
-    private fun setActionBarTitle(title: String) {
-        supportActionBar?.title = title
+    companion object{
+        const val EXTRA_IMG = "extra_img"
+        const val EXTRA_NAME = "extra_name"
+        const val EXTRA_PROFILE = "extra_profile"
+        const val EXTRA_DETAIL = "extra_detail"
+        const val EXTRA_YTURL = "extra_ytUrl"
+        const val EXTRA_TWITTERURL = "extra_twitterUrl"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+        binding = ActivityDetailBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-        val detailImage = findViewById<ImageView>(R.id.img_item_photo_detail)
-        val detailName = findViewById<TextView>(R.id.tv_name_detail)
-        val detailProfile = findViewById<TextView>(R.id.tv_profile_detail)
-        val detailDetail = findViewById<TextView>(R.id.tv_detail_detail)
-        val detailYtUrl = findViewById<ImageView>(R.id.iV_youtube)
-        val detailTwitterUrl = findViewById<ImageView>(R.id.iV_twitter)
-
-        val intent = intent
-        val vImage = intent.getIntExtra("vImage", 0)
-        val vName = intent.getStringExtra("vName")
-        val vProfile = intent.getStringExtra("vProfile")
-        val vDetail = intent.getStringExtra("vDetail")
-        val ytUrl = intent.getStringExtra("vYtUrl")
-        val twitUrl = intent.getStringExtra("vTwitUrl")
+        val vImage = intent.getIntExtra(EXTRA_IMG, 0)
+        val vName = intent.getStringExtra(EXTRA_NAME)
+        val vProfile = intent.getStringExtra(EXTRA_PROFILE)
+        val vDetail = intent.getStringExtra(EXTRA_DETAIL)
+        val ytUrl = intent.getStringExtra(EXTRA_YTURL)
+        val twitUrl = intent.getStringExtra(EXTRA_TWITTERURL)
 
         supportActionBar?.title = vName
-        detailImage.setImageResource(vImage)
-        detailName.text = vName
-        detailProfile.text = vProfile
-        detailDetail.text = vDetail
 
-        detailYtUrl.setOnClickListener {
-            if (ytUrl == ""){
-                Toast.makeText(this, "$vName Youtube is not available", Toast.LENGTH_LONG).show()
-            } else {
+        with(binding) {
+            imgItemPhotoDetail.setImageResource(vImage)
+            tvNameDetail.text = vName
+            tvProfileDetail.text = vProfile
+            tvDetailDetail.text = vDetail
+
+            iVYoutube.setOnClickListener {
                 gotoUrl(ytUrl)
             }
-        }
 
-        detailTwitterUrl.setOnClickListener {
-            if (twitUrl == ""){
-                Toast.makeText(this, "$vName Twitter is not available", Toast.LENGTH_LONG).show()
-            } else {
+            iVTwitter.setOnClickListener {
                 gotoUrl(twitUrl)
             }
         }
     }
 
-    private fun gotoUrl(Url: String?) {
-        val uri: Uri = Uri.parse(Url)
+    private fun gotoUrl(url: String?) {
+        val uri: Uri = Uri.parse(url)
         startActivity(Intent(Intent.ACTION_VIEW, uri))
     }
 

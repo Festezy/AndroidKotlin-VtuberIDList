@@ -6,11 +6,7 @@
         android:color="@color/DPink"/>
 
 
-    <corners
-        android:topLeftRadius="5dp"
-        android:topRightRadius="5dp"
-        android:bottomLeftRadius="5dp"
-        android:bottomRightRadius="5dp"/>
+    <corners android:radius="5dp"/>
 
     <!--    <size android:width="35dp"-->
     <!--        android:height="10dp"/>-->

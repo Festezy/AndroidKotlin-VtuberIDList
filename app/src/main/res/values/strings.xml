@@ -20,4 +20,88 @@
     <string name="keterangan_profile">Hallo, Nama Saya Ariq Andrean. untuk menyelesaikan Tugas dicoding</string>
     <string name="social_media_profile">Temukan saya di</string>
     <string name="dibuat_oleh_profile">Dibuat Oleh</string>
+
+    <string-array name="data_names">
+        <item>Ayunda Risu hololiveID</item>
+        <item>Airani Iofifteen hololiveID</item>
+        <item>Moona Hoshinova hololiveID</item>
+        <item>Kureiji Ollie hololiveID</item>
+        <item>Pavolia Reine hololiveID</item>
+        <item>Anya Melfissa hololiveID</item>
+        <item>Andi Adinata MAHA5</item>
+        <item>Alia Adelia MAHA5</item>
+        <item>Lumi Celestia MAHA5</item>
+        <item>Nia Redalion MAHA5</item>
+        <item>Zen Gunawan MAHA5</item>
+    </string-array>
+
+    <string-array name="data_detail">
+        <item>Seorang gadis tupai yang berasal dari hutan ajaib. Dia pernah tersesat di alam manusia tapi kemudian diselamatkan oleh seorang wanita baik hati yang sekarang tinggal dengannya. Dia memperlakukan wanita ini sebagai kakak perempuannya. Dia memulai debutnya sebagai VTuber hanya untuk membalasnya</item>
+        <item>Iofi - Bukan Anak Alien biasa di sini~ Multilingual Vtuber asal luar angkasa dan sedang kuliah jurusan DKV di Bumi</item>
+        <item>Seorang mahasiswa yang juga seorang model dan idola. Dia menjadi VTuber karena dia tertarik dengan dunia virtual. Dia tampaknya tenang dan berkepala dingin tetapi hal-hal menakutkan bukanlah secangkir tehnya.</item>
+        <item>Ollie sangat hiperaktif dan itu mempengaruhi terhadap debutnya yang agak memprihatinkan. Setelah menghabiskan satu menit untuk mempersiapkan diri untuk tampil di layar ketika akhirnya dia melakukannya dia mulai meraung keras dan panik. Sesuai dengan statusnya sebagai zombie kadang-kadang anggota badan Ollie terlepas dari tubuhnya; lengannya jatuh setidaknya dua kali dalam lima menit pertama debutnya. Dia tampaknya sangat sadar akan internet dan budaya meme karena dia sering menggunakan bahasa gaul internet pada stream debutnya seperti \dope\ \dank\ dan \pog\ memahami arti dan penggunaannya. Dia juga penggemar berat meme dan berharap penggemarnya membuat meme darinya. Dia juga cenderung secara acak menggoda gadis-gadis hololive lainnya.</item>
+        <item>Sang putri merak yang tertiup angin. Saat belajar di akademi sihir dia terlibat dalam sebuah insiden dan dipindahkan ke dunia manusia. Sejak itu dia tidak dapat menggunakan banyak sihirnya. Meski tampak anggun dan tenang dia bisa menjadi sangat emosional saat marah.</item>
+        <item>Anya merupakan pribadi yang sangat tenang. Dia agak berbeda dengan Ollie dia tampak sedikit berbicara dan lebih sering bergumam karena dia sering merasa gugup di saat live stream. Dibanding rekan-rekannya seperti Ollie dan Reine Anya kurang bergaul dengan para senpainya.</item>
+        <item>Dia suka menyanyi dan pernah menang dalam kontes menyanyi di tingkat kecamatan. Selain hobi menyanyi ia juga suka menggambar. Dia mengaku bukan seorang introver.</item>
+        <item>Dia berbicara bahasa Indonesia Inggris dan Jepang. Dia adalah orang Indonesia asli tapi dia mampu menggunakan aksen Jepang yang baik ketika berbicara bahasa itu.</item>
+        <item>Lumi merupakan orang yang agak pemalu dan tidak pandai berbicara dihadapan banyak orang. Dia sangat mudah gugup. Meski begitu dia tidak begitu membosankan dan mempunyai selera humor yang cukup bagus.</item>
+        <item>Makanan favoritnya adalah Soto Bakso dan Sate serta makanan tradisional Indonesia lainnya. Mimpinya sangat sederhana dan tidak terlalu tinggi yaitu hanya untuk menghibur pemirsanya.</item>
+        <item>Zen adalah orang yang humoris Walau dengan segala kekurangannya ia mencoba melakukan yang terbaik untuk menghibur penontonnya. Zen dikenal sebagai orang yang sangat ceria dan memiliki lagu cover yang bagus.</item>
+    </string-array>
+    
+    <string-array name="data_profil">
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia(ID) bersama dengan Airani Iofifteen dan Moona Hoshinova</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Moona Hoshinova dan Ayunda Risu</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Airani Iofifteen  dan Ayunda Risu</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Anya Melfissa dan Pavolia Reine.</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Anya Melfissa dan Kureiju Ollie.</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Pavolia Reine dan Kureiju Ollie.</item>
+        <item>adalah Virtual YouTuber laki-laki yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi pertama cabang Indonesia (ID) bersama Alia Adelia.</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi pertama cabang Indonesia (ID) bersama Andi Adinata.</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Zen Gunawan dan Nia Redalion.</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Zen Gunawan dan Lumi Celestia.</item>
+        <item>adalah Virtual YouTuber laki-laki Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Nia Redalion dan Lumi Celestia.</item>
+    </string-array>
+
+    <string-array name="data_youtube">
+        <item>https://www.youtube.com/channel/UCOyYb1c43VlX9rc_lT6NKQw</item>
+        <item>https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg</item>
+        <item>https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg/channels</item>
+        <item>https://www.youtube.com/channel/UCYz_5n-uDuChHtLo7My1HnQ/videos</item>
+        <item>https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q/about</item>
+        <item>https://www.youtube.com/channel/UC727SQYUvx5pDDGQpTICNWg/channels</item>
+        <item>https://www.youtube.com/channel/UC9QnAjC7mT4ggHuedr1_kqQ</item>
+        <item>https://www.youtube.com/channel/UCK4t1P3Aqqe6NDyRS92Opcg</item>
+        <item>https://www.youtube.com/channel/UCge_6FJHyeOCxRtWCmaVTAQ</item>
+        <item>https://www.youtube.com/channel/UCD2W-dcuukl4oChTKATdSiw/featured</item>
+        <item>https://www.youtube.com/c/ZenGunawanCh/featured</item>
+    </string-array>
+
+    <string-array name="data_twitter">
+        <item>https://twitter.com/ayunda_risu</item>
+        <item>https://twitter.com/airaniiofifteen?s=09</item>
+        <item>https://twitter.com/moonahoshinova</item>
+        <item>https://twitter.com/kureijiollie</item>
+        <item>https://twitter.com/pavoliareine</item>
+        <item>https://twitter.com/anyamelfissa</item>
+        <item>https://twitter.com/andiadinata_id</item>
+        <item>https://twitter.com/aliaadelia_v</item>
+        <item>https://twitter.com/LumiCelestia</item>
+        <item>https://twitter.com/NiaRedalion</item>
+        <item>https://twitter.com/ZenGunawan</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/ayundarisu</item>
+        <item>@drawable/airaniiofifteen</item>
+        <item>@drawable/moonahoshinova</item>
+        <item>@drawable/kurejiollie</item>
+        <item>@drawable/pavoliareine</item>
+        <item>@drawable/anyamelfissa</item>
+        <item>@drawable/andiadinata</item>
+        <item>@drawable/aliaadelia</item>
+        <item>@drawable/lumicelestia</item>
+        <item>@drawable/niaredalion</item>
+        <item>@drawable/zengunawan</item>
+    </integer-array>
 </resources>
