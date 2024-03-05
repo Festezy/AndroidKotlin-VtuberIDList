@@ -23,8 +23,8 @@
 
     <string-array name="data_names">
         <item>Ayunda Risu hololiveID</item>
-        <item>Airani Iofifteen hololiveID</item>
         <item>Moona Hoshinova hololiveID</item>
+        <item>Airani Iofifteen hololiveID</item>
         <item>Kureiji Ollie hololiveID</item>
         <item>Pavolia Reine hololiveID</item>
         <item>Anya Melfissa hololiveID</item>
@@ -37,8 +37,8 @@
 
     <string-array name="data_detail">
         <item>Seorang gadis tupai yang berasal dari hutan ajaib. Dia pernah tersesat di alam manusia tapi kemudian diselamatkan oleh seorang wanita baik hati yang sekarang tinggal dengannya. Dia memperlakukan wanita ini sebagai kakak perempuannya. Dia memulai debutnya sebagai VTuber hanya untuk membalasnya</item>
-        <item>Iofi - Bukan Anak Alien biasa di sini~ Multilingual Vtuber asal luar angkasa dan sedang kuliah jurusan DKV di Bumi</item>
         <item>Seorang mahasiswa yang juga seorang model dan idola. Dia menjadi VTuber karena dia tertarik dengan dunia virtual. Dia tampaknya tenang dan berkepala dingin tetapi hal-hal menakutkan bukanlah secangkir tehnya.</item>
+        <item>Iofi - Bukan Anak Alien biasa di sini~ Multilingual Vtuber asal luar angkasa dan sedang kuliah jurusan DKV di Bumi</item>
         <item>Ollie sangat hiperaktif dan itu mempengaruhi terhadap debutnya yang agak memprihatinkan. Setelah menghabiskan satu menit untuk mempersiapkan diri untuk tampil di layar ketika akhirnya dia melakukannya dia mulai meraung keras dan panik. Sesuai dengan statusnya sebagai zombie kadang-kadang anggota badan Ollie terlepas dari tubuhnya; lengannya jatuh setidaknya dua kali dalam lima menit pertama debutnya. Dia tampaknya sangat sadar akan internet dan budaya meme karena dia sering menggunakan bahasa gaul internet pada stream debutnya seperti \dope\ \dank\ dan \pog\ memahami arti dan penggunaannya. Dia juga penggemar berat meme dan berharap penggemarnya membuat meme darinya. Dia juga cenderung secara acak menggoda gadis-gadis hololive lainnya.</item>
         <item>Sang putri merak yang tertiup angin. Saat belajar di akademi sihir dia terlibat dalam sebuah insiden dan dipindahkan ke dunia manusia. Sejak itu dia tidak dapat menggunakan banyak sihirnya. Meski tampak anggun dan tenang dia bisa menjadi sangat emosional saat marah.</item>
         <item>Anya merupakan pribadi yang sangat tenang. Dia agak berbeda dengan Ollie dia tampak sedikit berbicara dan lebih sering bergumam karena dia sering merasa gugup di saat live stream. Dibanding rekan-rekannya seperti Ollie dan Reine Anya kurang bergaul dengan para senpainya.</item>
@@ -51,8 +51,8 @@
     
     <string-array name="data_profil">
         <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia(ID) bersama dengan Airani Iofifteen dan Moona Hoshinova</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Moona Hoshinova dan Ayunda Risu</item>
         <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Airani Iofifteen  dan Ayunda Risu</item>
+        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Moona Hoshinova dan Ayunda Risu</item>
         <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Anya Melfissa dan Pavolia Reine.</item>
         <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Anya Melfissa dan Kureiju Ollie.</item>
         <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Pavolia Reine dan Kureiju Ollie.</item>
@@ -65,8 +65,8 @@
 
     <string-array name="data_youtube">
         <item>https://www.youtube.com/channel/UCOyYb1c43VlX9rc_lT6NKQw</item>
-        <item>https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg</item>
         <item>https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg/channels</item>
+        <item>https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg</item>
         <item>https://www.youtube.com/channel/UCYz_5n-uDuChHtLo7My1HnQ/videos</item>
         <item>https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q/about</item>
         <item>https://www.youtube.com/channel/UC727SQYUvx5pDDGQpTICNWg/channels</item>
@@ -79,8 +79,8 @@
 
     <string-array name="data_twitter">
         <item>https://twitter.com/ayunda_risu</item>
-        <item>https://twitter.com/airaniiofifteen?s=09</item>
         <item>https://twitter.com/moonahoshinova</item>
+        <item>https://twitter.com/airaniiofifteen?s=09</item>
         <item>https://twitter.com/kureijiollie</item>
         <item>https://twitter.com/pavoliareine</item>
         <item>https://twitter.com/anyamelfissa</item>
@@ -91,17 +91,30 @@
         <item>https://twitter.com/ZenGunawan</item>
     </string-array>
 
-    <integer-array name="data_photo">
-        <item>@drawable/ayundarisu</item>
-        <item>@drawable/airaniiofifteen</item>
-        <item>@drawable/moonahoshinova</item>
-        <item>@drawable/kurejiollie</item>
-        <item>@drawable/pavoliareine</item>
-        <item>@drawable/anyamelfissa</item>
-        <item>@drawable/andiadinata</item>
-        <item>@drawable/aliaadelia</item>
-        <item>@drawable/lumicelestia</item>
-        <item>@drawable/niaredalion</item>
-        <item>@drawable/zengunawan</item>
-    </integer-array>
+    <string-array name="data_photo">
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2022/04/%E3%83%AA%E3%82%B9-1.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2022/04/%E3%83%A0%E3%83%BC%E3%83%8A-1.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2022/04/%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3-1.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2020/07/Kureiji-Ollie_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2020/07/Anya-Melfissa_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2020/07/Pavolia-Reine_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Vestia-Zeta_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Kaela-Kovalskia_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Kobo-Kanaeru_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Kobo-Kanaeru_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Kobo-Kanaeru_list_thumb.png</item>
+    </string-array>
+<!--    <integer-array name="data_photo">-->
+<!--        <item>@drawable/ayundarisu</item>-->
+<!--        <item>@drawable/airaniiofifteen</item>-->
+<!--        <item>@drawable/moonahoshinova</item>-->
+<!--        <item>@drawable/kurejiollie</item>-->
+<!--        <item>@drawable/pavoliareine</item>-->
+<!--        <item>@drawable/anyamelfissa</item>-->
+<!--        <item>@drawable/andiadinata</item>-->
+<!--        <item>@drawable/aliaadelia</item>-->
+<!--        <item>@drawable/lumicelestia</item>-->
+<!--        <item>@drawable/niaredalion</item>-->
+<!--        <item>@drawable/zengunawan</item>-->
+<!--    </integer-array>-->
 </resources>

@@ -30,15 +30,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getListVtuber(): ArrayList<VtuberModel>{
-        val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
+//        val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
+        val dataPhoto = resources.getStringArray(R.array.data_photo)
         val dataVtuberNames = resources.getStringArray(R.array.data_names)
         val dataProfiles = resources.getStringArray(R.array.data_profil)
         val dataDetails = resources.getStringArray(R.array.data_detail)
         val dataYoutubeUrl  = resources.getStringArray(R.array.data_youtube)
         val dataTwitterUrl  = resources.getStringArray(R.array.data_twitter)
         val listedVtuber =ArrayList<VtuberModel>()
+
         for (i in dataVtuberNames.indices){
-            val vtuber = VtuberModel(dataVtuberNames[i], dataProfiles[i], dataDetails[i], dataPhoto.getResourceId(i, -1),
+            val vtuber = VtuberModel(dataVtuberNames[i], dataProfiles[i], dataDetails[i], dataPhoto[i],
                 dataYoutubeUrl[i], dataTwitterUrl[i])
             listedVtuber.add(vtuber)
         }
@@ -48,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerCardView(){
         rvVtuber.layoutManager = LinearLayoutManager(this)
-        val listVtuberAdapter = VtuberAdapter(list, this@MainActivity)
+        val listVtuberAdapter = VtuberAdapter(list)
         rvVtuber.adapter = listVtuberAdapter
     }
 

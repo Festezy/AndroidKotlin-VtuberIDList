@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ariqandrean.daftarvtuber.databinding.ActivityDetailBinding
+import com.bumptech.glide.Glide
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetailBinding
@@ -24,7 +25,7 @@ class DetailActivity : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-        val vImage = intent.getIntExtra(EXTRA_IMG, 0)
+        val vImage = intent.getStringExtra(EXTRA_IMG)
         val vName = intent.getStringExtra(EXTRA_NAME)
         val vProfile = intent.getStringExtra(EXTRA_PROFILE)
         val vDetail = intent.getStringExtra(EXTRA_DETAIL)
@@ -34,7 +35,7 @@ class DetailActivity : AppCompatActivity() {
         supportActionBar?.title = vName
 
         with(binding) {
-            imgItemPhotoDetail.setImageResource(vImage)
+            Glide.with(this@DetailActivity).load(vImage).into(imgItemPhotoDetail)
             tvNameDetail.text = vName
             tvProfileDetail.text = vProfile
             tvDetailDetail.text = vDetail

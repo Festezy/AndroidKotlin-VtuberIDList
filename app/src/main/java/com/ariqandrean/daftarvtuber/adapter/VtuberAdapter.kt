@@ -12,7 +12,7 @@ import com.ariqandrean.daftarvtuber.model.VtuberModel
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
-class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>, private val context: Context) : RecyclerView.Adapter<VtuberAdapter.ListViewViewHolder>() {
+class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>) : RecyclerView.Adapter<VtuberAdapter.ListViewViewHolder>() {
     class ListViewViewHolder(var binding: ItemListvtuberBinding): RecyclerView.ViewHolder(binding.root)
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewViewHolder {
         val binding = ItemListvtuberBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -40,14 +40,14 @@ class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>, private val 
         holder.itemView.setOnClickListener {
             Toast.makeText(holder.itemView.context, "Kamu memilih ${listVtuber[holder.bindingAdapterPosition].name}", Toast.LENGTH_SHORT).show()
 
-            Intent(context, DetailActivity::class.java).also {
+            Intent(holder.itemView.context, DetailActivity::class.java).also {
                 it.putExtra(DetailActivity.EXTRA_IMG, vtuberPhoto)
                 it.putExtra(DetailActivity.EXTRA_NAME, vtuberNames)
                 it.putExtra(DetailActivity.EXTRA_PROFILE, vtuberProfile)
                 it.putExtra(DetailActivity.EXTRA_DETAIL, vtuberDetail)
                 it.putExtra(DetailActivity.EXTRA_YTURL, vtuberYtUrl)
                 it.putExtra(DetailActivity.EXTRA_TWITTERURL, vtuberTwitterUrl)
-                context.startActivity(it)
+                holder.itemView.context.startActivity(it)
             }
 
         }
