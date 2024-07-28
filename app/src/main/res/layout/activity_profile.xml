@@ -18,7 +18,7 @@
             android:text="@string/dibuat_oleh_profile"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="16dp"/>
+            android:textSize="16sp"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,14 +29,12 @@
                 android:id="@+id/profile_image"
                 android:layout_width="227dp"
                 android:layout_height="174dp"
-                android:layout_centerVertical="true"
                 android:layout_gravity="center"
                 android:src="@drawable/ariq" />
             <TextView
                 android:id="@+id/profile_nama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/profile_image"
                 android:layout_marginTop="10dp"
                 android:text="@string/ariq_andrean_profile"
                 android:textColor="@color/black"
@@ -49,10 +47,6 @@
                 android:text="@string/link_akundicoding_profile"/>
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
