@@ -1,21 +1,25 @@
 package com.ariqandrean.daftarvtuber.adapter
 
-import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
+import coil.transform.RoundedCornersTransformation
 import com.ariqandrean.daftarvtuber.DetailActivity
+import com.ariqandrean.daftarvtuber.R
 import com.ariqandrean.daftarvtuber.databinding.ItemListvtuberBinding
 import com.ariqandrean.daftarvtuber.model.VtuberModel
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 
-class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>) : RecyclerView.Adapter<VtuberAdapter.ListViewViewHolder>() {
-    class ListViewViewHolder(var binding: ItemListvtuberBinding): RecyclerView.ViewHolder(binding.root)
+class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>) :
+    RecyclerView.Adapter<VtuberAdapter.ListViewViewHolder>() {
+    class ListViewViewHolder(var binding: ItemListvtuberBinding) :
+        RecyclerView.ViewHolder(binding.root)
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewViewHolder {
-        val binding = ItemListvtuberBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding =
+            ItemListvtuberBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ListViewViewHolder(binding)
     }
 
@@ -26,10 +30,15 @@ class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>) : RecyclerVi
             vtuberYtUrl, vtuberTwitterUrl) = listVtuber[position]
 
         /** method for load the images*/
-        Glide.with(holder.itemView.context)
-            .load(vtuberPhoto)
-            .apply(RequestOptions().override(300, 350))
-            .into(holder.binding.imgItemPhoto)
+        holder.binding.imgItemPhoto.load(vtuberPhoto) {
+            crossfade(true)
+            placeholder(R.drawable.ic_android_black_24dp)
+            transformations(RoundedCornersTransformation())
+        }
+//        Glide.with(holder.itemView.context)
+//            .load(vtuberPhoto)
+//            .apply(RequestOptions().override(300, 350))
+//            .into(holder.binding.imgItemPhoto)
 
         holder.binding.tvItemName.text = vtuberNames
         holder.binding.tvItemProfile.text = vtuberProfile
@@ -38,7 +47,11 @@ class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>) : RecyclerVi
         holder.binding.tvItemTwitterLink.text = vtuberTwitterUrl
 
         holder.itemView.setOnClickListener {
-            Toast.makeText(holder.itemView.context, "Kamu memilih ${listVtuber[holder.bindingAdapterPosition].name}", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                holder.itemView.context,
+                "Kamu memilih ${listVtuber[holder.bindingAdapterPosition].name}",
+                Toast.LENGTH_SHORT
+            ).show()
 
             Intent(holder.itemView.context, DetailActivity::class.java).also {
                 it.putExtra(DetailActivity.EXTRA_IMG, vtuberPhoto)

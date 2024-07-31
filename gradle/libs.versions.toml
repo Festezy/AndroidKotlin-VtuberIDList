@@ -33,7 +33,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
-androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version = "1.2.0-alpha01" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
