@@ -22,7 +22,7 @@
 
         <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
              drawable. One of these is required. -->
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ayundarisu2</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ayundarisuu_300x300</item>
         <!-- Required for animated icons. -->
         <item name="windowSplashScreenAnimationDuration">2000</item>
 
