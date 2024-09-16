@@ -20,6 +20,7 @@
     <string name="keterangan_profile">Hallo, Nama Saya Ariq Andrean. untuk menyelesaikan Tugas dicoding</string>
     <string name="social_media_profile">Temukan saya di</string>
     <string name="dibuat_oleh_profile">Dibuat Oleh</string>
+    <string name="detail_share">title_Share</string>
 
     <string-array name="data_names">
         <item>Ayunda Risu hololiveID</item>
@@ -31,8 +32,7 @@
         <item>Vestia Zeta</item>
         <item>Kaela Kovalskia</item>
         <item>Kobo Kanaeru</item>
-        <item>Nia Redalion MAHA5</item>
-        <item>Zen Gunawan MAHA5</item>
+        <item>Hoshimachi Suisei</item>
     </string-array>
 
     <string-array name="data_detail">
@@ -41,54 +41,51 @@
         <item>Iofi - Bukan Anak Alien biasa di sini~ Multilingual Vtuber asal luar angkasa dan sedang kuliah jurusan DKV di Bumi</item>
         <item>Ollie sangat hiperaktif dan itu mempengaruhi terhadap debutnya yang agak memprihatinkan. Setelah menghabiskan satu menit untuk mempersiapkan diri untuk tampil di layar ketika akhirnya dia melakukannya dia mulai meraung keras dan panik. Sesuai dengan statusnya sebagai zombie kadang-kadang anggota badan Ollie terlepas dari tubuhnya; lengannya jatuh setidaknya dua kali dalam lima menit pertama debutnya. Dia tampaknya sangat sadar akan internet dan budaya meme karena dia sering menggunakan bahasa gaul internet pada stream debutnya seperti \dope\ \dank\ dan \pog\ memahami arti dan penggunaannya. Dia juga penggemar berat meme dan berharap penggemarnya membuat meme darinya. Dia juga cenderung secara acak menggoda gadis-gadis hololive lainnya.</item>
         <item>Sang putri merak yang tertiup angin. Saat belajar di akademi sihir dia terlibat dalam sebuah insiden dan dipindahkan ke dunia manusia. Sejak itu dia tidak dapat menggunakan banyak sihirnya. Meski tampak anggun dan tenang dia bisa menjadi sangat emosional saat marah.</item>
-        <item>Anya merupakan pribadi yang sangat tenang. Dia agak berbeda dengan Ollie dia tampak sedikit berbicara dan lebih sering bergumam karena dia sering merasa gugup di saat live stream. Dibanding rekan-rekannya seperti Ollie dan Reine Anya kurang bergaul dengan para senpainya.</item>
+        <item>Senjata kuno yang dikenal sebagai “Keris”, dia diberikan bentuk manusia melalui ritual mistis yang dilakukan oleh tuannya. Dia hampir selalu tidur atau bermain game. Hidup sendirian begitu lama membuatnya cenderung apatis terhadap hal-hal dan orang-orang yang tidak menarik baginya, tetapi ketika berbicara tentang hal-hal yang disukainya, ia bisa sangat kekanak-kanakan dan penuh semangat. Kepribadian dasarnya sebenarnya apatis, terutama terhadap manusia. Jangan biarkan penampilan membodohi Anda - itulah yang selalu dilakukan oleh setiap manusia bodoh terhadap diri mereka sendiri.</item>
         <item>Dia adalah rekrutan ke-7 yang misterius dari Unit Arsip Rahasia yang memiliki lisensi penuh untuk mengumpulkan data virtual.\n Meskipun dia adalah seorang pemula yang menjanjikan, yang juga dikenal dengan nama sandi V.7, dia menjadi kikuk ketika segala sesuatunya tidak berjalan sesuai dengan manual.\n Awalnya, ini adalah misi yang sepi untuk menyusup ke dunia virtual, tetapi sekarang dia telah menemukan kenyamanan di sini. Akankah misi ini malah membawanya ke takdir yang baru...?</item>
         <item>Setelah mengambil alih bengkel pandai besi milik guru pandai besi yang hebat, dia merasa kurang bersemangat dalam hidupnya.\n Jadi, dia memutuskan untuk bebas dan melakukan perjalanan untuk menemukan bahan pandai besi yang langka, yang salah satunya dikabarkan berada di bawah bangunan “grup idola” tertentu di kota.\n Dia juga suka menantang dirinya sendiri dan memiliki selera yang aneh dalam hal makanan!</item>
         <item>Seorang gadis periang yang tinggal di ruang paling atas mercusuar, dia sebenarnya adalah keturunan dari dukun hujan terkuat di daerah tersebut. Dia memiliki potensi besar untuk mengendalikan hujan, tetapi dia tidak suka melakukannya sebagai tugas.\n Untuk memenangkan kembali gelar Master Hujan, dia harus membuktikan kepada keluarganya bahwa dia dapat mempertahankan layanan dukun hujan mereka. Dia tidak hanya harus berlatih setiap hari, tapi dia juga harus menerapkan semacam strategi pemasaran virtual agar berhasil!</item>
-        <item>Makanan favoritnya adalah Soto Bakso dan Sate serta makanan tradisional Indonesia lainnya. Mimpinya sangat sederhana dan tidak terlalu tinggi yaitu hanya untuk menghibur pemirsanya.</item>
-        <item>Zen adalah orang yang humoris Walau dengan segala kekurangannya ia mencoba melakukan yang terbaik untuk menghibur penontonnya. Zen dikenal sebagai orang yang sangat ceria dan memiliki lagu cover yang bagus.</item>
+        <item>Seorang idola virtual dengan kecintaan yang luar biasa terhadap lagu dan idola. Dia mencurahkan kerja keras dan energi tanpa henti untuk mewujudkan mimpinya tampil di Budokan suatu hari nanti.</item>
     </string-array>
     
-    <string-array name="data_profil">
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia(ID) bersama dengan Airani Iofifteen dan Moona Hoshinova</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Airani Iofifteen  dan Ayunda Risu</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Moona Hoshinova dan Ayunda Risu</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Anya Melfissa dan Pavolia Reine.</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Anya Melfissa dan Kureiju Ollie.</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Pavolia Reine dan Kureiju Ollie.</item>
-        <item>adalah Virtual YouTuber laki-laki yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi pertama cabang Indonesia (ID) bersama Alia Adelia.</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi pertama cabang Indonesia (ID) bersama Andi Adinata.</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Zen Gunawan dan Nia Redalion.</item>
-        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Zen Gunawan dan Lumi Celestia.</item>
-        <item>adalah Virtual YouTuber laki-laki Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Nia Redalion dan Lumi Celestia.</item>
-    </string-array>
+<!--    <string-array name="data_profil">-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia(ID) bersama dengan Airani Iofifteen dan Moona Hoshinova</item>-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Airani Iofifteen  dan Ayunda Risu</item>-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi pertama cabang Indonesia (ID) bersama Moona Hoshinova dan Ayunda Risu</item>-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Anya Melfissa dan Pavolia Reine.</item>-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Anya Melfissa dan Kureiju Ollie.</item>-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan hololive, sebagai bagian dari VTuber generasi kedua cabang Indonesia (ID) bersama Pavolia Reine dan Kureiju Ollie.</item>-->
+<!--        <item>adalah Virtual YouTuber laki-laki yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi pertama cabang Indonesia (ID) bersama Alia Adelia.</item>-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi pertama cabang Indonesia (ID) bersama Andi Adinata.</item>-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Zen Gunawan dan Nia Redalion.</item>-->
+<!--        <item>adalah Virtual YouTuber perempuan Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Zen Gunawan dan Lumi Celestia.</item>-->
+<!--        <item>adalah Virtual YouTuber laki-laki Indonesia yang terkait dengan MAHAPANCA, sebagai bagian dari Vtuber generasi kedua cabang Indonesia (ID) bersama Nia Redalion dan Lumi Celestia.</item>-->
+<!--    </string-array>-->
 
     <string-array name="data_youtube">
-        <item>https://www.youtube.com/channel/UCOyYb1c43VlX9rc_lT6NKQw</item>
-        <item>https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg/channels</item>
-        <item>https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg</item>
-        <item>https://www.youtube.com/channel/UCYz_5n-uDuChHtLo7My1HnQ/videos</item>
-        <item>https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q/about</item>
-        <item>https://www.youtube.com/channel/UC727SQYUvx5pDDGQpTICNWg/channels</item>
-        <item>https://www.youtube.com/channel/UC9QnAjC7mT4ggHuedr1_kqQ</item>
-        <item>https://www.youtube.com/channel/UCK4t1P3Aqqe6NDyRS92Opcg</item>
-        <item>https://www.youtube.com/channel/UCge_6FJHyeOCxRtWCmaVTAQ</item>
-        <item>https://www.youtube.com/channel/UCD2W-dcuukl4oChTKATdSiw/featured</item>
-        <item>https://www.youtube.com/c/ZenGunawanCh/featured</item>
+        <item>https://www.youtube.com/channel/UCOyYb1c43VlX9rc_lT6NKQw?sub_confirmation=1</item>
+        <item>https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg?sub_confirmation=1</item>
+        <item>https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg?sub_confirmation=1</item>
+        <item>https://www.youtube.com/channel/UCYz_5n-uDuChHtLo7My1HnQ</item>
+        <item>https://www.youtube.com/channel/UC727SQYUvx5pDDGQpTICNWg/featured</item>
+        <item>https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q?</item>
+        <item>https://www.youtube.com/channel/UCTvHWSfBZgtxE4sILOaurIQ</item>
+        <item>https://www.youtube.com/channel/UCZLZ8Jjx_RN2CXloOmgTHVg</item>
+        <item>https://www.youtube.com/channel/UCjLEmnpCNeisMxy134KPwWw</item>
+        <item>https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A?sub_confirmation=1</item>
     </string-array>
 
     <string-array name="data_twitter">
-        <item>https://twitter.com/ayunda_risu</item>
-        <item>https://twitter.com/moonahoshinova</item>
-        <item>https://twitter.com/airaniiofifteen?s=09</item>
-        <item>https://twitter.com/kureijiollie</item>
-        <item>https://twitter.com/pavoliareine</item>
-        <item>https://twitter.com/anyamelfissa</item>
-        <item>https://twitter.com/andiadinata_id</item>
-        <item>https://twitter.com/aliaadelia_v</item>
-        <item>https://twitter.com/LumiCelestia</item>
-        <item>https://twitter.com/NiaRedalion</item>
-        <item>https://twitter.com/ZenGunawan</item>
+        <item>https://x.com/ayunda_risu</item>
+        <item>https://x.com/moonahoshinova</item>
+        <item>https://x.com/airaniiofifteen</item>
+        <item>https://x.com/kureijiollie</item>
+        <item>https://x.com/anyamelfissa</item>
+        <item>https://x.com/pavoliareine</item>
+        <item>https://x.com/vestiazeta</item>
+        <item>https://x.com/kaelakovalskia</item>
+        <item>https://x.com/kobokanaeru</item>
+        <item>https://x.com/suisei_hosimati</item>
     </string-array>
 
     <string-array name="data_photo">
@@ -96,13 +93,12 @@
         <item>https://hololive.hololivepro.com/wp-content/uploads/2022/04/%E3%83%A0%E3%83%BC%E3%83%8A-1.png</item>
         <item>https://hololive.hololivepro.com/wp-content/uploads/2022/04/%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3-1.png</item>
         <item>https://hololive.hololivepro.com/wp-content/uploads/2024/06/Kureiji-Ollie_list_thumb.png</item>
-        <item>https://hololive.hololivepro.com/wp-content/uploads/2020/07/Pavolia-Reine_list_thumb.png</item>
         <item>https://hololive.hololivepro.com/wp-content/uploads/2020/07/Anya-Melfissa_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2020/07/Pavolia-Reine_list_thumb.png</item>
         <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Vestia-Zeta_list_thumb.png</item>
         <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Kaela-Kovalskia_list_thumb.png</item>
         <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Kobo-Kanaeru_list_thumb.png</item>
-        <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Kobo-Kanaeru_list_thumb.png</item>
-        <item>https://hololive.hololivepro.com/wp-content/uploads/2023/11/Kobo-Kanaeru_list_thumb.png</item>
+        <item>https://hololive.hololivepro.com/wp-content/uploads/2024/08/Hoshimachi-Suisei_list_thumb.png</item>
     </string-array>
 <!--    <integer-array name="data_photo">-->
 <!--        <item>@drawable/ayundarisu</item>-->

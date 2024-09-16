@@ -6,7 +6,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class VtuberModel(
     var name: String,
-    var profile: String,
+//    var profile: String,
     var detail: String,
 //    var photo: Int,
     var photo: String,

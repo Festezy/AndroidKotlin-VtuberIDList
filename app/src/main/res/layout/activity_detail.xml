@@ -86,7 +86,7 @@
                 android:id="@+id/iV_twitter"
                 android:layout_width="155dp"
                 android:layout_height="41dp"
-                app:srcCompat="@drawable/twitter"
+                app:srcCompat="@drawable/twitterlogox"
                 android:contentDescription="@string/youtubelink_detail" />
         </LinearLayout>
 

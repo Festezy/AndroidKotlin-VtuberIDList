@@ -26,8 +26,8 @@ class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>) :
     override fun getItemCount(): Int = listVtuber.size
 
     override fun onBindViewHolder(holder: ListViewViewHolder, position: Int) {
-        val (vtuberNames, vtuberProfile, vtuberDetail, vtuberPhoto,
-            vtuberYtUrl, vtuberTwitterUrl) = listVtuber[position]
+        val (vtuberNames, vtuberDetail, vtuberPhoto, vtuberYtUrl, vtuberTwitterUrl) = listVtuber[position]
+//        val (vtuberNames, vtuberProfile, vtuberDetail, vtuberPhoto, vtuberYtUrl, vtuberTwitterUrl) = listVtuber[position]
 
         /** method for load the images*/
         holder.binding.imgItemPhoto.load(vtuberPhoto) {
@@ -41,7 +41,7 @@ class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>) :
 //            .into(holder.binding.imgItemPhoto)
 
         holder.binding.tvItemName.text = vtuberNames
-        holder.binding.tvItemProfile.text = vtuberProfile
+//        holder.binding.tvItemProfile.text = vtuberProfile
         holder.binding.tvItemDetail.text = vtuberDetail
         holder.binding.tvItemYtlink.text = vtuberYtUrl
         holder.binding.tvItemTwitterLink.text = vtuberTwitterUrl
@@ -56,7 +56,7 @@ class VtuberAdapter(private val listVtuber: ArrayList<VtuberModel>) :
             Intent(holder.itemView.context, DetailActivity::class.java).also {
                 it.putExtra(DetailActivity.EXTRA_IMG, vtuberPhoto)
                 it.putExtra(DetailActivity.EXTRA_NAME, vtuberNames)
-                it.putExtra(DetailActivity.EXTRA_PROFILE, vtuberProfile)
+//                it.putExtra(DetailActivity.EXTRA_PROFILE, vtuberProfile)
                 it.putExtra(DetailActivity.EXTRA_DETAIL, vtuberDetail)
                 it.putExtra(DetailActivity.EXTRA_YTURL, vtuberYtUrl)
                 it.putExtra(DetailActivity.EXTRA_TWITTERURL, vtuberTwitterUrl)

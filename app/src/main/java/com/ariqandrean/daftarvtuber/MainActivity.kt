@@ -35,15 +35,15 @@ class MainActivity : AppCompatActivity() {
 //        val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
         val dataVtuberNames = resources.getStringArray(R.array.data_names)
-        val dataProfiles = resources.getStringArray(R.array.data_profil)
+//        val dataProfiles = resources.getStringArray(R.array.data_profil)
         val dataDetails = resources.getStringArray(R.array.data_detail)
         val dataYoutubeUrl  = resources.getStringArray(R.array.data_youtube)
         val dataTwitterUrl  = resources.getStringArray(R.array.data_twitter)
         val listedVtuber =ArrayList<VtuberModel>()
 
         for (i in dataVtuberNames.indices){
-            val vtuber = VtuberModel(dataVtuberNames[i], dataProfiles[i], dataDetails[i], dataPhoto[i],
-                dataYoutubeUrl[i], dataTwitterUrl[i])
+            val vtuber = VtuberModel(dataVtuberNames[i], dataDetails[i], dataPhoto[i], dataYoutubeUrl[i], dataTwitterUrl[i])
+//            val vtuber = VtuberModel(dataVtuberNames[i], dataProfiles[i], dataDetails[i], dataPhoto[i], dataYoutubeUrl[i], dataTwitterUrl[i])
             listedVtuber.add(vtuber)
         }
 
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.item_actionbar, menu)
+        menuInflater.inflate(R.menu.menu_topbar_main, menu)
         return true
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
